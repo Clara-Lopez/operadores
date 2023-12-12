@@ -1,0 +1,17 @@
+document.addEventListener('DOMContentLoaded', function() {
+    let num1 = 1;
+    let num2 = 2;
+    let num3 = 3;
+
+    let numeroMasGrande = num1;
+
+    if (num2 > numeroMasGrande) {
+        numeroMasGrande = num2;
+    }
+
+    if (num3 > numeroMasGrande) {
+        numeroMasGrande = num3;
+    }
+
+    console.log("El número más grande es:", numeroMasGrande);
+});
